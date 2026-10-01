@@ -179,7 +179,7 @@ export function Header() {
               Request a free estimate
             </Button>
             <p className="pt-2 text-center text-[0.9rem] text-white/60">
-              PA HIC #{site.hic} · Licensed and insured · Akron, PA
+              PA HIC #{site.hic} · Licensed and insured
             </p>
           </div>
         </div>

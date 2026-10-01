@@ -17,7 +17,6 @@ const areaServed = [
   { "@type": "AdministrativeArea", name: "Lebanon County, PA" },
   { "@type": "AdministrativeArea", name: "Berks County, PA" },
   ...[
-    "Akron",
     "Ephrata",
     "Lititz",
     "Denver",
@@ -50,13 +49,9 @@ export function businessNode() {
     founder: { "@id": personId },
     address: {
       "@type": "PostalAddress",
-      streetAddress: site.address.street,
-      addressLocality: site.address.city,
       addressRegion: site.address.state,
-      postalCode: site.address.zip,
-      addressCountry: "US",
+      addressCountry: site.address.country,
     },
-    geo: { "@type": "GeoCoordinates", latitude: site.geo.lat, longitude: site.geo.lng },
     areaServed,
     hasCredential: {
       "@type": "EducationalOccupationalCredential",

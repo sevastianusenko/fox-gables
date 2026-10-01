@@ -90,7 +90,7 @@ export const interiorServices: Service[] = [
     eyebrow: "Kitchen remodeling",
     title: "Kitchen Remodeling in Lancaster, PA | Fox Gables Construction",
     metaDescription:
-      "Kitchen remodels in Lancaster and Lebanon counties: cabinets, countertops, layout changes, flooring and lighting by a licensed contractor. Clear quotes, on-schedule work. Fox Gables Construction, Akron PA.",
+      "Kitchen remodels in Lancaster and Lebanon counties: cabinets, countertops, layout changes, flooring and lighting by a licensed contractor. Clear quotes, on-schedule work. Fox Gables Construction.",
     h1: "Kitchen remodeling, planned so you are not eating takeout for three months",
     lede:
       "A kitchen remodel is the most disruptive thing you can do to a house, and it goes well or badly depending on planning. Josh sequences the job so demolition starts only when the cabinets are on the ground, and the kitchen is out of service for weeks, not months.",

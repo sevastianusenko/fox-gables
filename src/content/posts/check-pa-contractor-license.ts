@@ -85,6 +85,6 @@ A good estimate names the materials by brand and product, breaks out the scope i
 
 Because the rules protect the contractors who follow them as much as they protect homeowners. Every unregistered roofer who shingles over an old roof for cash makes the next homeowner suspicious of the registered one who tears it off. Check the number, check the insurance, read the contract. Then hire whoever you trust.
 
-Fox Gables Construction is PA125031, insured through Frederick Mutual, in Akron since 2011. Look it up.
+Fox Gables Construction is PA125031, insured through Frederick Mutual, since 2011. Look it up.
 `,
 };

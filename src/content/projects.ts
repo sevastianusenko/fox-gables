@@ -153,7 +153,7 @@ export const projects: Project[] = [
       { label: "Dormers", value: "Re-flashed, new siding and trim on the cheeks" },
     ],
     body: [
-      "Cape Cods are common across Ephrata, Akron and Lititz, and the dormers are where they leak. This one had two front dormers with flashing that had been tarred over more than once, and the roof deck under the valleys had gone soft from years of slow seepage.",
+      "Cape Cods are common across Ephrata and Lititz, and the dormers are where they leak. This one had two front dormers with flashing that had been tarred over more than once, and the roof deck under the valleys had gone soft from years of slow seepage.",
       "The job started with a full tear-off down to the deck. Josh cut out the rotted sections and sistered in new plywood so the shingles would have something solid to hold. Ice and water shield went on at the eaves, in the valleys and around the dormers, with synthetic underlayment over the rest of the deck. New step flashing was woven into the dormer cheeks, and the dormer siding and trim were replaced while the roof was open, which is the cheap time to do it.",
       "Architectural shingles in a mid-grey finished the roof, with a ridge vent to move air out of the attic. The third photo is from a different house, a chimney that had been leaking through old flashing. The fix is the same every time: cut a reglet into the mortar joint, install new step flashing and counter-flashing, and stop relying on caulk.",
     ],
@@ -164,7 +164,7 @@ export const projects: Project[] = [
     slug: "entry-door-replacement",
     title: "Entry doors, a patio door and a bulkhead door",
     short: "Decorative glass entry doors with sidelights, a sliding patio door in a brick wall, and a steel bulkhead cellar door.",
-    town: "Ephrata and Akron area",
+    town: "Ephrata area",
     county: "Lancaster County",
     services: ["/doors/", "/home-repair/"],
     cover: { src: "/photos/jobs/entry-door-sidelights.jpg", alt: "New fiberglass entry door with decorative glass and matching sidelights" },
@@ -176,7 +176,7 @@ export const projects: Project[] = [
       { src: "/photos/jobs/bulkhead-door.jpg", alt: "New white steel bulkhead cellar door against a house foundation", caption: "Steel bulkhead door over basement stairs" },
     ],
     facts: [
-      { label: "Where", value: "Ephrata and Akron area" },
+      { label: "Where", value: "Ephrata area" },
       { label: "Entry doors", value: "Pre-hung fiberglass with decorative glass and sidelights" },
       { label: "Patio door", value: "Vinyl sliding door, low-E glass, set into brick" },
       { label: "Bulkhead", value: "Steel cellar door on a new curb, sealed to the foundation" },

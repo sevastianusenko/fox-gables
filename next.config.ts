@@ -7,6 +7,7 @@ const nextConfig: NextConfig = {
     return [
       // Old WordPress site (2025) URLs.
       { source: "/home/", destination: "/", permanent: true },
+      { source: "/service-areas/akron-pa/", destination: "/service-areas/", permanent: true },
       { source: "/home-repair-remodeling-services/", destination: "/home-repair/", permanent: true },
       { source: "/roof-repair-replacement/", destination: "/roofing/", permanent: true },
       { source: "/professional-roof-repair-replacement-in-lancaster-lebanon-pa/", destination: "/doors/", permanent: true },

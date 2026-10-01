@@ -13,7 +13,7 @@ export const roofingServices: Service[] = [
       "Licensed roofer serving Lancaster and Lebanon counties. Asphalt shingle and metal roofs, repairs and replacements by the owner himself. PA HIC #PA125031. Free roof inspection.",
     h1: "A roofing contractor who is on the roof, not in a sales office",
     lede:
-      "Fox Gables Construction replaces and repairs roofs across Lancaster County and Lebanon County from a shop in Akron. Josh Fox inspects the roof, writes the estimate and installs the roof. Architectural shingles, standing seam and ribbed metal, flat roofs on row homes, and the repairs that keep an older roof going a few more years.",
+      "Fox Gables Construction replaces and repairs roofs across Lancaster County and Lebanon County. Josh Fox inspects the roof, writes the estimate and installs the roof. Architectural shingles, standing seam and ribbed metal, flat roofs on row homes, and the repairs that keep an older roof going a few more years.",
     hero: { src: "/photos/jobs/shingle-roof-cape-cod.jpg", alt: "Cape Cod home in Lancaster County with a new architectural shingle roof", ratio: "4/5" },
     intro: [
       "A roof in this part of Pennsylvania takes a beating: wet springs, humid summers, ice at the eaves in February, and wind coming across open farmland most of the year. A roof that is installed right handles all of that for twenty-five to fifty years depending on the material. A roof that is installed fast and cheap starts leaking at the flashing in five.",
@@ -424,7 +424,7 @@ export const roofingServices: Service[] = [
       {
         heading: "Roofs in this county",
         body: [
-          "Lancaster County roofs are mostly 6-in-12 to 9-in-12 pitches on colonials, Cape Cods and ranches, with dormers, chimneys and the occasional skylight. Cape Cods, which are everywhere from Akron to Elizabethtown, are the hardest to do right because of the dormer flashing and the short valleys. Ranches are the easiest. Two-story colonials need staging and a day longer.",
+          "Lancaster County roofs are mostly 6-in-12 to 9-in-12 pitches on colonials, Cape Cods and ranches, with dormers, chimneys and the occasional skylight. Cape Cods, which are everywhere to Elizabethtown, are the hardest to do right because of the dormer flashing and the short valleys. Ranches are the easiest. Two-story colonials need staging and a day longer.",
           "Open ground means wind. Six nails per shingle and a proper starter strip are what keep shingles on the roof when a storm comes across the fields.",
         ],
       },
@@ -469,7 +469,7 @@ export const roofingServices: Service[] = [
     hero: { src: "/photos/stock/barn-storm.jpg", alt: "Red barn in an open field under dark storm clouds", ratio: "4/5" },
     intro: [
       "Lancaster and Lebanon counties get a few serious wind events a year and the occasional hail storm, and the open farmland means the wind has a long run at the roof. The damage is usually lifted or missing shingles along the ridge and edges, a limb through the deck, or hail bruising that is hard to see from the ground but shows up as leaks a year later.",
-      "After every big storm, out-of-state roofing crews show up knocking on doors in Ephrata and Lititz offering free inspections and a new roof for your deductible. Some are fine. Some will be gone when the roof leaks. Fox Gables is in Akron and has been for years. Josh will be here next year.",
+      "After every big storm, out-of-state roofing crews show up knocking on doors in Ephrata and Lititz offering free inspections and a new roof for your deductible. Some are fine. Some will be gone when the roof leaks. Fox Gables is local and has been for years. Josh will be here next year.",
     ],
     sections: [
       {

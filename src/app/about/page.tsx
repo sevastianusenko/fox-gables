@@ -8,9 +8,9 @@ import { CtaBand, Gallery, LicenseBlock, ProcessSteps, ReviewsBlock } from "@/co
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "About Josh Fox | Licensed Contractor in Akron, PA",
+  title: "About Josh Fox | Licensed Pennsylvania Contractor",
   description:
-    "Josh Fox runs Fox Gables Construction from Akron, PA: an owner-operated, PA-licensed (HIC PA125031) and insured contractor doing roofing, siding, windows, doors, decks and remodeling across Lancaster and Lebanon counties.",
+    "Josh Fox runs Fox Gables Construction: an owner-operated, PA-licensed (HIC PA125031) and insured contractor doing roofing, siding, windows, doors, decks and remodeling across Lancaster and Lebanon counties.",
   alternates: { canonical: "/about/" },
   openGraph: { images: [{ url: "/photos/jobs/roofer-silhouette.jpg" }] },
 };
@@ -23,9 +23,9 @@ export default function AboutPage() {
           <div className="lg:col-span-7">
             <Breadcrumbs items={[{ name: "About", href: "/about/" }]} />
             <Eyebrow className="mt-6 text-fox">About Fox Gables Construction</Eyebrow>
-            <h1 className="mt-3">Josh Fox. Akron, Pennsylvania. On the job since 2011.</h1>
+            <h1 className="mt-3">Josh Fox. One contractor. On the job since 2011.</h1>
             <p className="lede measure mt-6 text-ink-soft">
-              Fox Gables Construction is one licensed contractor, a truck, a shop on Bomberger Road and fifteen years of
+              Fox Gables Construction is one licensed contractor, a truck and fifteen years of
               roofs, siding, windows, doors, decks, porches and remodels across Lancaster County and Lebanon County.
             </p>
             <div className="mt-8 flex flex-wrap gap-4">

@@ -26,11 +26,11 @@ const sourceSerif = Source_Serif_4({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: `Roofing, Siding, Windows & Remodeling | ${site.name}, Akron PA`,
+    default: `Roofing, Siding, Windows & Remodeling | ${site.name}`,
     template: `%s | ${site.name}`,
   },
   description:
-    "Fox Gables Construction is an owner-operated, PA-licensed contractor in Akron serving Lancaster and Lebanon counties. Roofing, siding, windows, doors, decks and remodeling. Free estimates.",
+    "Fox Gables Construction is an owner-operated, PA-licensed contractor serving Lancaster and Lebanon counties. Roofing, siding, windows, doors, decks and remodeling. Free estimates.",
   openGraph: {
     type: "website",
     siteName: site.name,

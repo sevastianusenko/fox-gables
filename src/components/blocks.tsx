@@ -111,7 +111,7 @@ export function CtaBand({ service, source = "cta", heading, intro }: { service?:
           </a>
           <p className="mt-3 text-white/80">{site.hoursText}</p>
           <p className="mt-6 border-t border-white/25 pt-4 text-[0.9rem] text-white/80">
-            PA HIC #{site.hic} · Insured · {site.address.street}, {site.address.city}, {site.address.state}
+            PA HIC #{site.hic} · Insured
           </p>
         </div>
         <div className="bg-white p-6 text-ink shadow-[var(--shadow-frame-lift)] md:p-8 lg:col-span-7">

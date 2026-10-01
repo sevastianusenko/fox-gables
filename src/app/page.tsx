@@ -13,9 +13,9 @@ import { reviews } from "@/content/reviews";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: `Roofing, Siding, Windows & Remodeling | ${site.name}, Akron PA`,
+  title: `Roofing, Siding, Windows & Remodeling | ${site.name}`,
   description:
-    "Fox Gables Construction is an owner-operated, PA-licensed contractor in Akron serving Lancaster and Lebanon counties. Roofing, siding, windows, doors, decks and remodeling. Free estimates.",
+    "Fox Gables Construction is an owner-operated, PA-licensed contractor serving Lancaster and Lebanon counties. Roofing, siding, windows, doors, decks and remodeling. Free estimates.",
   alternates: { canonical: "/" },
   openGraph: { images: [{ url: "/photos/jobs/metal-roof-farmhouse.jpg", width: 960, height: 540 }] },
 };
@@ -43,7 +43,7 @@ export default function HomePage() {
           <span className="font-display font-semibold text-ink">PA HIC #{site.hic}</span>
           <span>Licensed and insured</span>
           <span>Owner-operated since {site.founded}</span>
-          <span>Based in Akron, PA</span>
+          <span>Serving Lancaster and Lebanon counties</span>
           <a href={site.ratings.homeadvisor.url} rel="noopener" target="_blank" className="underline underline-offset-4 hover:text-fox">
             HomeAdvisor {site.ratings.homeadvisor.value}★, all five-star
           </a>
@@ -172,7 +172,7 @@ export default function HomePage() {
         <div className="grid gap-12 lg:grid-cols-12 lg:items-center lg:gap-16">
           <div className="lg:col-span-5">
             <Eyebrow className="text-fox">Where Josh works</Eyebrow>
-            <h2 className="mt-3">Thirty miles around Akron.</h2>
+            <h2 className="mt-3">Thirty miles around the shop.</h2>
             <p className="lede mt-5 text-ink-soft">
               Ephrata, Lititz and Denver are minutes away. Lebanon, Lancaster and Manheim are a short drive. Elizabethtown,
               Palmyra, Reading and Womelsdorf are the far edge, where the bigger jobs make the trip worthwhile.
@@ -187,7 +187,7 @@ export default function HomePage() {
               ))}
               <li>
                 <Link href="/service-areas/" className="font-display font-semibold text-fox">
-                  All 14 towns
+                  All 13 towns
                 </Link>
               </li>
             </ul>

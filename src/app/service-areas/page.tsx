@@ -7,12 +7,11 @@ import { Breadcrumbs } from "@/components/ui/PageHero";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { RadiusDial } from "@/components/RadiusDial";
 import { CtaBand } from "@/components/blocks";
-import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Service Areas | Lancaster & Lebanon Counties",
   description:
-    "Fox Gables Construction serves Lancaster County, Lebanon County and nearby Berks County from Akron, PA. See the towns, distances and recent projects.",
+    "Fox Gables Construction serves Lancaster County, Lebanon County and nearby Berks County. See the towns, distances and recent projects.",
   alternates: { canonical: "/service-areas/" },
 };
 
@@ -26,9 +25,9 @@ export default function ServiceAreasPage() {
           <div className="mt-6 grid gap-10 lg:grid-cols-12 lg:items-center">
             <div className="lg:col-span-6">
               <Eyebrow className="text-fox">Where Josh works</Eyebrow>
-              <h1 className="mt-3">Thirty miles around the shop in Akron</h1>
+              <h1 className="mt-3">Thirty miles around the shop</h1>
               <p className="lede measure mt-6 text-ink-soft">
-                Fox Gables Construction is at {site.address.street} in Akron, in the northern part of Lancaster County.
+                Fox Gables Construction works out of the northern part of Lancaster County.
                 The rings show how far each town is as the crow flies. Ephrata, Lititz and Denver are minutes away.
                 Lebanon, Lancaster and Manheim are a short drive. The far ring is where full roofs, siding, windows and
                 decks make the trip worthwhile.

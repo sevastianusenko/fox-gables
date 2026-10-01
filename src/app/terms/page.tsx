@@ -76,8 +76,7 @@ export default function TermsPage() {
           <p>These terms and any contract for work are governed by the laws of the Commonwealth of Pennsylvania.</p>
           <h2>Contact</h2>
           <p>
-            {site.legalName}, {site.address.street}, {site.address.city}, {site.address.state} {site.address.zip}.{" "}
-            {site.phone} · {site.email}
+            {site.legalName}. {site.phone} · {site.email}
           </p>
         </div>
       </Section>

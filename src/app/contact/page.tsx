@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Breadcrumbs } from "@/components/ui/PageHero";
 import { Section, Eyebrow } from "@/components/ui/Section";
 import { LeadForm } from "@/components/LeadForm";
@@ -6,14 +7,13 @@ import { LicenseBlock } from "@/components/blocks";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Free Estimate | Fox Gables Construction, Akron PA",
+  title: "Free Estimate | Fox Gables Construction",
   description:
-    "Request a free estimate from Fox Gables Construction in Akron, PA. Call (717) 598-7728 or send the form. Josh calls back the same day. Roofing, siding, windows, doors, decks and remodeling.",
+    "Request a free estimate from Fox Gables Construction. Call (717) 598-7728 or send the form. Josh calls back the same day. Roofing, siding, windows, doors, decks and remodeling.",
   alternates: { canonical: "/contact/" },
 };
 
 export default function ContactPage() {
-  const mapQ = encodeURIComponent(`${site.address.street}, ${site.address.city}, ${site.address.state} ${site.address.zip}`);
   return (
     <>
       <section className="bg-paper">
@@ -37,10 +37,6 @@ export default function ContactPage() {
                 </a>
                 <br />
                 {site.legalName}
-                <br />
-                {site.address.street}
-                <br />
-                {site.address.city}, {site.address.state} {site.address.zip}
               </address>
               <p className="mt-4 text-[0.9rem] text-ink-mute">There is no showroom. Samples come to your house in the truck.</p>
               <div className="mt-8">
@@ -78,16 +74,14 @@ export default function ContactPage() {
             </ol>
           </div>
           <div className="lg:col-span-8">
-            <div className="relative aspect-[16/9] overflow-hidden border-2 border-line bg-white">
-              <iframe
-                title="Map of Fox Gables Construction in Akron, PA"
-                src={`https://www.google.com/maps?q=${mapQ}&z=11&output=embed`}
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                className="absolute inset-0 h-full w-full"
-              />
+            <div className="border-l-4 border-fox bg-white p-6 shadow-[var(--shadow-frame)]">
+              <p className="eyebrow text-fox">Where Josh works</p>
+              <p className="mt-2 font-display text-[1.4rem] font-bold leading-tight">Lancaster County, Lebanon County and western Berks County.</p>
+              <p className="mt-2 text-ink-soft">There is no showroom to visit. Josh comes to you, with samples in the truck. Not sure you are in range? Call and ask.</p>
+              <Link href="/service-areas/" className="mt-4 inline-block font-display font-semibold text-fox underline underline-offset-4">
+                See the service area
+              </Link>
             </div>
-            <p className="mt-2 text-[0.85rem] text-ink-mute">Akron is between Ephrata and Lititz, just off Route 272.</p>
           </div>
         </div>
       </Section>

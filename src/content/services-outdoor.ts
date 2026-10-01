@@ -171,7 +171,7 @@ export const outdoorServices: Service[] = [
     eyebrow: "Porch construction",
     title: "Porch Construction in Lancaster, PA | Front & Screened Porches | Fox Gables",
     metaDescription:
-      "Front porch construction, porch roofs and screened-in porches in Lancaster and Lebanon counties, including commercial storefront porches. Licensed contractor Fox Gables Construction, Akron PA.",
+      "Front porch construction, porch roofs and screened-in porches in Lancaster and Lebanon counties, including commercial storefront porches. Licensed contractor Fox Gables Construction.",
     h1: "Front porches, porch roofs and screened porches",
     lede:
       "A porch is where a house meets the street, and in Lancaster County that matters. Josh rebuilds the sagging front porches on old brick homes, adds covered porches to houses that never had one, builds screened porches for the bugs in July, and builds storefront porches for small businesses.",

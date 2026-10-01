@@ -8,13 +8,9 @@ export const site = {
   phoneHref: "tel:+17175987728",
   phoneE164: "+1-717-598-7728",
   email: "contact@foxgables.com",
-  address: {
-    street: "210 Bomberger Road",
-    city: "Akron",
-    state: "PA",
-    zip: "17501",
-    county: "Lancaster County",
-  },
+  // Service-area business: no street address is published. Region only.
+  address: { state: "PA", country: "US" },
+  // Used only to place towns on the service-area dial. Never output as schema or text.
   geo: { lat: 40.1565, lng: -76.203 },
   hic: "PA125031",
   hicUrl: "https://hicsearch.attorneygeneral.gov/",

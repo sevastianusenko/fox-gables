@@ -109,7 +109,7 @@ export const exteriorServices: Service[] = [
     eyebrow: "Replacement windows",
     title: "Home Window Replacement in Lancaster, PA | Fox Gables Construction",
     metaDescription:
-      "Energy-efficient replacement windows in Lancaster and Lebanon counties, installed by the owner. Aluminum-wrapped trim, no high-pressure sales. Free quote from Fox Gables Construction, Akron PA.",
+      "Energy-efficient replacement windows in Lancaster and Lebanon counties, installed by the owner. Aluminum-wrapped trim, no high-pressure sales. Free quote from Fox Gables Construction.",
     h1: "Replacement windows installed by a local contractor, not a sales rep",
     lede:
       "The big window companies send a salesperson with a two-hour presentation and a price that drops if you sign tonight. Josh measures your windows, tells you what they cost, and installs them himself. The windows are the same quality. The experience and the price are not.",
@@ -384,7 +384,7 @@ export const exteriorServices: Service[] = [
     eyebrow: "Commercial and agricultural",
     title: "Commercial & Agricultural Exterior Work | Fox Gables Construction",
     metaDescription:
-      "Metal roofs for barns, shops and commercial buildings, storefront porches, soffit, gutters and windows for small businesses in Lancaster and Lebanon counties. Fox Gables Construction, Akron PA.",
+      "Metal roofs for barns, shops and commercial buildings, storefront porches, soffit, gutters and windows for small businesses in Lancaster and Lebanon counties. Fox Gables Construction.",
     h1: "Barns, shops and storefronts: the same work at a bigger scale",
     lede:
       "Lancaster County is farms and small businesses. Fox Gables puts metal roofs on barns, sheds and shops, builds porches on storefronts, and does the siding, soffit, gutter and window work that keeps a small commercial building looking cared for, scheduled around your operation.",

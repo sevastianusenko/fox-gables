@@ -167,7 +167,7 @@ export default async function TownPage({ params }: PageProps<"/service-areas/[sl
               {nearby.map((n) => (
                 <li key={n.slug}>
                   <Link href={`/service-areas/${n.slug}/`} className="flex items-baseline justify-between py-3 font-display font-semibold hover:text-fox">
-                    {n.name}, PA <span className="text-[0.85rem] font-normal text-ink-mute tnum">{n.miles} mi from Akron</span>
+                    {n.name}, PA <span className="text-[0.85rem] font-normal text-ink-mute tnum">{n.miles} mi</span>
                   </Link>
                 </li>
               ))}

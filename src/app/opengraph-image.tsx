@@ -25,7 +25,7 @@ export default function OpenGraphImage() {
         </svg>
         <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between", padding: 64, width: "100%" }}>
           <div style={{ display: "flex", fontSize: 22, letterSpacing: 4, textTransform: "uppercase", color: "#e3561d", fontWeight: 700 }}>
-            Owner-operated · PA HIC {site.hic} · Akron, PA
+            Owner-operated · PA HIC {site.hic}
           </div>
           <div style={{ display: "flex", flexDirection: "column" }}>
             <div style={{ display: "flex", fontSize: 72, fontWeight: 900, lineHeight: 1, letterSpacing: -2, maxWidth: 900 }}>

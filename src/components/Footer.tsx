@@ -20,7 +20,6 @@ const services = [
 ];
 
 const towns = [
-  ["Akron", "/service-areas/akron-pa/"],
   ["Ephrata", "/service-areas/ephrata-pa/"],
   ["Lititz", "/service-areas/lititz-pa/"],
   ["Denver", "/service-areas/denver-pa/"],
@@ -54,7 +53,7 @@ export function Footer() {
           <div className="lg:col-span-4">
             <Logo tone="light" />
             <p className="mt-5 max-w-sm text-white/75">
-              Owner-operated roofing, siding, windows, doors, decks and remodeling. Based in Akron, serving Lancaster
+              Owner-operated roofing, siding, windows, doors, decks and remodeling. Serving Lancaster
               County, Lebanon County and nearby Berks County since {site.founded}.
             </p>
             <address className="mt-6 not-italic text-white/85">
@@ -65,8 +64,6 @@ export function Footer() {
               <a href={`mailto:${site.email}`} className="hover:text-fox">
                 {site.email}
               </a>
-              <br />
-              {site.address.street}, {site.address.city}, {site.address.state} {site.address.zip}
             </address>
             <p className="mt-5 text-[0.9rem] text-white/60">{site.hoursText}</p>
             <p className="mt-4 border-l-4 border-fox pl-3 text-[0.9rem] text-white/85">

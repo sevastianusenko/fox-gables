@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/Button";
 import { HouseFrame } from "@/components/ui/HouseFrame";
 import { FoxMark } from "@/components/Logo";
 
-const words = ["Roofs,", "siding,", "windows", "and", "decks.", "One", "licensed", "contractor,", "from", "Akron."];
+const words = ["Roofs,", "siding,", "windows", "and", "decks.", "One", "licensed", "contractor,", "start", "to", "finish."];
 
 export function Hero() {
   return (

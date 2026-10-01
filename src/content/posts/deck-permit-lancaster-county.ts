@@ -24,7 +24,7 @@ The residential building code that Pennsylvania uses, the Uniform Construction C
 
 ## Who issues the permit
 
-Pennsylvania municipalities handle their own permits. Lancaster County has 60 of them and Lebanon County has 26, and each one either has its own code office or contracts with a third-party inspection agency. Ephrata Borough, Ephrata Township, West Earl Township, Warwick Township, Lititz Borough, Akron Borough, East Cocalico Township, Manheim Township and so on each have a permit application, a fee schedule and an inspector. Some share an agency. The process is similar everywhere; the forms and fees are not.
+Pennsylvania municipalities handle their own permits. Lancaster County has 60 of them and Lebanon County has 26, and each one either has its own code office or contracts with a third-party inspection agency. Ephrata Borough, Ephrata Township, West Earl Township, Warwick Township, Lititz Borough, East Cocalico Township, Manheim Township and so on each have a permit application, a fee schedule and an inspector. Some share an agency. The process is similar everywhere; the forms and fees are not.
 
 Your contractor should know which office covers your address and handle the application. I do this as part of the job. If a contractor tells you a permit is not needed for an attached deck, that is a sign to get another contractor.
 

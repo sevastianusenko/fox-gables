@@ -7,7 +7,7 @@ import { CtaBand, ReviewQuote } from "@/components/blocks";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Reviews | Fox Gables Construction, Akron PA",
+  title: "Reviews | Fox Gables Construction",
   description:
     "What homeowners in Lancaster and Lebanon counties say about Fox Gables Construction: HomeAdvisor reviews, Nextdoor recommendations and direct feedback on roofing, windows, doors and remodeling.",
   alternates: { canonical: "/reviews/" },
@@ -36,7 +36,7 @@ export default function ReviewsPage() {
             </a>
             <a href={site.ratings.nextdoor.url} rel="noopener" target="_blank" className="group">
               <span className="block font-display text-[2rem] font-extrabold leading-none group-hover:text-fox">Recommended</span>
-              <span className="block text-[0.9rem] text-ink-mute">By neighbors on Nextdoor, Ephrata and Akron</span>
+              <span className="block text-[0.9rem] text-ink-mute">By neighbors on Nextdoor, Ephrata</span>
             </a>
           </div>
         </div>

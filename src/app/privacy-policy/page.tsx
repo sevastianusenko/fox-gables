@@ -23,8 +23,7 @@ export default function PrivacyPage() {
       <Section tone="paper" tight>
         <div className="prose-fg text-ink-soft">
           <p>
-            This website is operated by {site.legalName}, {site.address.street}, {site.address.city}, {site.address.state}{" "}
-            {site.address.zip}. This page explains what information the site collects and what is done with it. It is
+            This website is operated by {site.legalName}, a Pennsylvania company. This page explains what information the site collects and what is done with it. It is
             written in plain language because that is how we talk to customers.
           </p>
           <h2>What we collect</h2>
@@ -78,8 +77,6 @@ export default function PrivacyPage() {
           <h2>Contact</h2>
           <p>
             {site.legalName}
-            <br />
-            {site.address.street}, {site.address.city}, {site.address.state} {site.address.zip}
             <br />
             {site.phone} · {site.email}
           </p>
