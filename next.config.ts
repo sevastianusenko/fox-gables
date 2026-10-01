@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   trailingSlash: true,
-  images: { formats: ["image/avif", "image/webp"] },
+  images: { unoptimized: true },
   async redirects() {
     return [
       // Old WordPress site (2025) URLs.
