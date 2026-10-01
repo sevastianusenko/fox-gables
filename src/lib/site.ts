@@ -3,7 +3,7 @@ export const site = {
   legalName: "Fox Gables Construction, LLC",
   owner: "Josh Fox",
   ownerFull: "Joshua V. Fox",
-  url: "https://foxgables.com",
+  url: "https://www.foxgables.com",
   phone: "(717) 598-7728",
   phoneHref: "tel:+17175987728",
   phoneE164: "+1-717-598-7728",
