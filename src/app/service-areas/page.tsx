@@ -53,7 +53,7 @@ export default function ServiceAreasPage() {
                   </div>
                 )}
                 <div className="border-t-4 border-fox p-5">
-                  <h2 className="text-[clamp(1.2rem,1rem+0.8vw,1.5rem)] group-hover:text-fox" style={{ fontStretch: "100%", textWrap: "nowrap" }}>
+                  <h2 className="text-[1.55rem] font-bold group-hover:text-fox" style={{ fontStretch: "100%" }}>
                     {t.name}, PA
                   </h2>
                   <p className="mt-1 text-[0.9rem] text-ink-mute">

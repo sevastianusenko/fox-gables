@@ -22,24 +22,6 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-shingle via-shingle/85 to-shingle/30" aria-hidden="true" />
       <div className="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-shingle to-transparent" aria-hidden="true" />
 
-      {/* The roofline: drawn on load, peak above the headline. */}
-      <svg
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-x-0 top-0 h-full w-full"
-        viewBox="0 0 1440 700"
-        preserveAspectRatio="xMidYMin slice"
-        fill="none"
-      >
-        <path
-          d="M-40 720 L560 70 L1480 720"
-          pathLength={1}
-          className="hero-line"
-          stroke="#e3561d"
-          strokeWidth="3"
-          strokeLinejoin="round"
-        />
-      </svg>
-
       <div className="relative mx-auto grid w-full max-w-7xl gap-10 px-4 pb-16 pt-14 sm:px-6 md:pb-24 md:pt-20 lg:grid-cols-12 lg:items-center lg:gap-12 lg:px-8">
         <div className="lg:col-span-7">
           <p className="eyebrow hero-fade text-fox" style={{ "--d": "0.2s" } as React.CSSProperties}>
@@ -84,15 +66,34 @@ export function Hero() {
 
         <div className="relative lg:col-span-5">
           <div className="hero-frame relative">
-            <HouseFrame
-              src="/photos/jobs/shingle-roof-cape-cod.jpg"
-              alt="A Cape Cod in northern Lancaster County the day its new architectural shingle roof went on"
-              ratio="4/5"
-              priority
-              sizes="(min-width: 1024px) 40vw, 100vw"
-              className="shadow-[var(--shadow-frame-lift)]"
-            />
-            <FoxMark className="hero-fox absolute left-1/2 top-0 h-10 w-auto -translate-x-1/2 -translate-y-[60%] text-fox drop-shadow-[0_6px_12px_rgba(0,0,0,0.5)]" />
+            <div className="relative">
+              {/* The roofline: a gable outline drawn around the photo on load. */}
+              <svg
+                aria-hidden="true"
+                className="pointer-events-none absolute -inset-[14px] h-[calc(100%+28px)] w-[calc(100%+28px)]"
+                viewBox="0 0 100 125"
+                preserveAspectRatio="none"
+                fill="none"
+              >
+                <path
+                  d="M0 27 L50 0 L100 27 L100 125 L0 125 Z"
+                  className="hero-line-px"
+                  stroke="#e3561d"
+                  strokeWidth="2.5"
+                  strokeLinejoin="round"
+                  vectorEffect="non-scaling-stroke"
+                />
+              </svg>
+              <HouseFrame
+                src="/photos/jobs/shingle-roof-cape-cod.jpg"
+                alt="A Cape Cod in northern Lancaster County the day its new architectural shingle roof went on"
+                ratio="4/5"
+                priority
+                sizes="(min-width: 1024px) 40vw, 100vw"
+                className="shadow-[var(--shadow-frame-lift)]"
+              />
+            </div>
+            <FoxMark className="hero-fox absolute left-1/2 top-0 h-10 w-auto -translate-x-1/2 -translate-y-[95%] text-fox drop-shadow-[0_6px_12px_rgba(0,0,0,0.5)]" />
             <p className="mt-3 text-center text-[0.85rem] text-white/60">
               Real job: shingle roof replacement on a Cape Cod with dormers.{" "}
               <Link href="/projects/shingle-roof-replacement-cape-cod/" className="underline underline-offset-4 hover:text-fox">

@@ -62,6 +62,7 @@ body {
 }
 
 /* ---------- Type ---------- */
+@layer base {
 h1,
 h2,
 h3,
@@ -97,6 +98,7 @@ h4 {
   font-stretch: 102%;
   line-height: 1.2;
   font-size: 1.1rem;
+}
 }
 
 .eyebrow {
@@ -205,6 +207,11 @@ h4 {
   z-index: 1;
 }
 
+/* A section followed by a gable edge needs room so its last lines are not cut by the roofline. */
+section:has(+ section > svg.gable-edge:first-child) > div {
+  padding-bottom: calc(clamp(28px, 5.5vw, 84px) + 2.5rem);
+}
+
 /* Primary button: a bar with a gable cut on the right edge. */
 .btn-gable {
   clip-path: polygon(0 0, calc(100% - 0.75rem) 0, 100% 50%, calc(100% - 0.75rem) 100%, 0 100%);
@@ -273,6 +280,11 @@ h4 {
   }
 }
 
+.js-anim .hero-line-px {
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation: draw 1.6s var(--ease-expo) 0.3s forwards;
+}
 .js-anim .hero-line {
   stroke-dasharray: 1;
   stroke-dashoffset: 1;
@@ -327,7 +339,12 @@ h4 {
     animation: none;
     transition: none;
   }
-  .js-anim .hero-line {
+  .js-anim .hero-line-px {
+  stroke-dasharray: 4000;
+  stroke-dashoffset: 4000;
+  animation: draw 1.6s var(--ease-expo) 0.3s forwards;
+}
+.js-anim .hero-line {
     stroke-dashoffset: 0;
     animation: none;
   }
