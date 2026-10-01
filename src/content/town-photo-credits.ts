@@ -1,0 +1,18 @@
+export const townPhotoCredits: Record<string, { license: string; artist: string; page: string }> = {
+  "ephrata": { license: "CC BY-SA 2.0", artist: "Doug Kerr from Albany, NY, United States", page: "https://commons.wikimedia.org/wiki/File:Ephrata_Cloister_-_Ephrata,_Pennsylvania_(5655240059).jpg" },
+  "lititz": { license: "CC BY-SA 2.0", artist: "Doug Kerr from Albany, NY, United States", page: "https://commons.wikimedia.org/wiki/File:Lititz,_Pennsylvania_(6293362032).jpg" },
+  "lebanon": { license: "CC BY-SA 3.0", artist: "Skabat169", page: "https://commons.wikimedia.org/wiki/File:Lebanon_PA.JPG" },
+  "akron": { license: "CC BY-SA 2.5", artist: "Andrew Bossi", page: "https://commons.wikimedia.org/wiki/File:2008_05_10_-_Akron_-_Main_St.JPG" },
+  "lancaster": { license: "CC BY-SA 3.0", artist: "Randolph Carney", page: "https://commons.wikimedia.org/wiki/File:Lancaster_Pennsylvania_downtown.jpg" },
+  "manheim": { license: "CC BY-SA 2.0", artist: "Doug Kerr from Albany, NY, United States", page: "https://commons.wikimedia.org/wiki/File:Manheim,_Pennsylvania_(4037114774).jpg" },
+  "elizabethtown": { license: "CC BY-SA 2.0", artist: "Doug Kerr from Albany, NY, United States", page: "https://commons.wikimedia.org/wiki/File:Elizabethtown,_Pennsylvania_(6287279771).jpg" },
+  "reading": { license: "CC BY-SA 4.0", artist: "BigCheddah", page: "https://commons.wikimedia.org/wiki/File:ReadingPennsylvaniaSkyline.jpg" },
+  "mount-joy": { license: "CC0", artist: "Smallbones", page: "https://commons.wikimedia.org/wiki/File:Mount_Joy_Conshohocken_PA.jpg" },
+  "new-holland": { license: "CC BY-SA 3.0", artist: "Smallbones", page: "https://commons.wikimedia.org/wiki/File:200_W_Main_New_Holland.JPG" },
+  "palmyra": { license: "CC BY-SA 4.0", artist: "Dough4872", page: "https://commons.wikimedia.org/wiki/File:Palmyra_PA_Keystone_Marker_on_US_422_WB.jpeg" },
+  "myerstown": { license: "CC BY-SA 2.0", artist: "Doug Kerr from Albany, NY, United States", page: "https://commons.wikimedia.org/wiki/File:Myerstown,_Pennsylvania_(6293583002).jpg" },
+  "womelsdorf": { license: "CC0", artist: "Smallbones", page: "https://commons.wikimedia.org/wiki/File:Womelsdorf.jpg" },
+  "denver": { license: "CC BY-SA 2.5", artist: "Derek Ramsey", page: "https://commons.wikimedia.org/wiki/File:Bucher's_Mill_Covered_Bridge_Full_Side_3008px.jpg" },
+  "farm": { license: "CC BY-SA 3.0", artist: "Smallbones", page: "https://commons.wikimedia.org/wiki/File:737_Spruce_LanCo_Stone_Barn.JPG" },
+  "farmhouse": { license: "CC BY-SA 4.0", artist: "Jerrye & Roy Klotz, MD", page: "https://commons.wikimedia.org/wiki/File:WINDOM_MILL_FARM,_LANCASTER_COUNTY,_PA.jpg" },
+};
